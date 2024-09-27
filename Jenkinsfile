@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         EC2_USER = 'ubuntu'                  // Username for Ubuntu EC2 instance
-        EC2_IP = 'http://54.209.53.51/'  // Replace with your EC2 public IP
+        EC2_IP = '54.209.53.51'              // EC2 public IP (without 'http://')
         SSH_KEY = credentials('f49fcc76-ec68-44f1-9913-e71abb7919f1') // Jenkins credential ID for your SSH key
     }
 
