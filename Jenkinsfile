@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout from GitHub') {
             steps {
-                git 'https://github.com/your-github-repo/html-website.git' // Replace with your repository URL
+                git 'https://github.com/chetanjadhav-dev/Jenkins-Pipeline.git' // Replace with your repository URL
             }
         }
 
